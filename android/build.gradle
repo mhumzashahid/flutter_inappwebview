@@ -1,6 +1,8 @@
 group 'com.pichillilorenzo.flutter_inappwebview'
 version '1.0-SNAPSHOT'
-
+android {
+    namespace 'com.example.namespace'
+}
 buildscript {
     repositories {
         google()
